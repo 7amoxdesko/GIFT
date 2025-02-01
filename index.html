@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claim Your Gift</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(104, 67, 67, 0.3);
+    }
+
+    .gift-image {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+
+    .claim-button {
+      background-color: #3b3bd0;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .claim-button:hover {
+      background-color: #5355b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://media.discordapp.net/attachments/1309259484186808442/1335337194436427818/image-removebg-preview.png?ex=679fcd2c&is=679e7bac&hm=dbd26ee77f0b87581fd04e40a5cd7581cf5cab81999a07fce99b7179065a46f4&=&format=webp&quality=lossless&width=759&height=739" alt="Gift" class="gift-image">
+    <h1>Claim Your Gift!</h1>
+    <button class="claim-button" onclick="redirectToLink()">Claim</button>
+  </div>
+
+  <script>
+    function redirectToLink() {
+      window.location.href = "https://www.youtube.com/watch?v=R0Yv9FF9gIg";
+    }
+  </script>
+</body>
+</html>
